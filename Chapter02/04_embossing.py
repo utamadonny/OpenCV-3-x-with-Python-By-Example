@@ -1,8 +1,8 @@
 import cv2 
 import numpy as np 
  
-img_emboss_input = cv2.imread('images/input.jpg') 
- 
+img_emboss_input = cv2.imread('images/train_input.png') 
+
 # generating the kernels 
 kernel_emboss_1 = np.array([[0,-1,-1], 
                             [1,0,-1], 
@@ -27,3 +27,4 @@ cv2.imshow('Embossing - South West', output_1)
 cv2.imshow('Embossing - South East', output_2) 
 cv2.imshow('Embossing - North West', output_3) 
 cv2.waitKey(0)
+cv2.destroyAllWindows()

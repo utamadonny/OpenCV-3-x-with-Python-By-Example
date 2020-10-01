@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np 
  
-img = cv2.imread('images/input.jpg') 
+img = cv2.imread('images/hulk_input.jpg') 
  
 img_yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV) 
  

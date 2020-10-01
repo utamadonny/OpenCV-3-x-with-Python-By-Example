@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np 
  
-img = cv2.imread('images/input.jpg') 
+img = cv2.imread('images/tree_input.png') 
 cv2.imshow('Original', img) 
  
 # generating the kernels 

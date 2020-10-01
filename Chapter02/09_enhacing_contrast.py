@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np 
  
-img = cv2.imread('images/input.jpg', 0) 
+img = cv2.imread('images/hulk_input.jpg', 0) 
  
 # equalize the histogram of the input image 
 histeq = cv2.equalizeHist(img) 

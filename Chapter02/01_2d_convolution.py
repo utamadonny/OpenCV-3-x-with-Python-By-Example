@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np 
  
-img = cv2.imread('images/input.jpg') 
+img = cv2.imread('images/house_input.png') 
 rows, cols = img.shape[:2] 
  
 kernel_identity = np.array([[0,0,0], [0,1,0], [0,0,0]]) 

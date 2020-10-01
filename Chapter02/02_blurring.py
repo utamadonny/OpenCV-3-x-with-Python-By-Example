@@ -1,7 +1,7 @@
 import cv2 
 import numpy as np 
  
-img = cv2.imread('images/input.jpg') 
+img = cv2.imread('images/house_input.png') 
 cv2.imshow('Original', img) 
  
 size = 15 
@@ -16,3 +16,4 @@ output = cv2.filter2D(img, -1, kernel_motion_blur)
  
 cv2.imshow('Motion Blur', output) 
 cv2.waitKey(0) 
+cv2.destroyAllWindows()

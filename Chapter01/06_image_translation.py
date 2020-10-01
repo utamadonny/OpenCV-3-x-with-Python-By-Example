@@ -11,3 +11,4 @@ img_translation = cv2.warpAffine(img_translation, translation_matrix, (num_cols 
 
 cv2.imshow('Translation', img_translation)
 cv2.waitKey()
+cv2.destroyAllWindows()
